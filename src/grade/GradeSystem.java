@@ -6,6 +6,11 @@ import grade.UI.UserQuit;
 public class GradeSystem {
 	public static class NoSuchIDExceptions extends Exception { }
 	public static class NoSuchCommandExceptions extends Exception { }
+	
+	/*
+	 * main()
+	 * 程式進入點
+	 */
 	public static void main(String[] args) throws IOException
 	{	
 		String tarcet_method,uid;
